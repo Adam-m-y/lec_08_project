@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>مدرستي</title>
+  <style>
+    body {
+      font-family: 'Tahoma', sans-serif;
+      background-color: #f5f7fa;
+      margin: 0;
+      padding: 0;
+      direction: rtl;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #004aad, #0077cc);
+      color: #fff;
+      padding: 25px;
+      text-align: center;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    nav {
+      background-color: #e9f5ff;
+      display: flex;
+      justify-content: center;
+      padding: 12px 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      margin: 0 20px;
+      text-decoration: none;
+      color: #004aad;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #0077cc;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      background-color: #fff;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 12px;
+      max-width: 900px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    h2, h3 {
+      color: #004aad;
+    }
+
+    .material-list {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      gap: 10px;
+      padding: 0;
+    }
+
+    .material-list li {
+      padding: 10px 15px;
+      background-color: #0077cc;
+      color: #fff;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .material-list li:hover {
+      background-color: #005fa3;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 10px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    }
+
+    .quote {
+      background-color: #e0f7f4;
+      border-left: 6px solid #00b894;
+      padding: 15px;
+      font-style: italic;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    label {
+      margin-top: 10px;
+      font-weight: bold;
+      display: block;
+    }
+
+    input[type="text"], input[type="number"], select {
+      width: 100%;
+      max-width: 400px;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    input[type="submit"] {
+      background-color: #004aad;
+      color: white;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 15px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #6cc2ff;
+    }
+
+    footer {
+      background-color: #002b5c;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #00f2aa;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>مدرسة المدينة المنورة</h1>
+  </header>
+
+  <nav>
+    <a href="#عن المدرسة">عن المدرسة</a>
+    <a href="#الانشطة">الأنشطة</a>
+    <a href="#اتصل بنا">اتصل بنا</a>
+    <a href="#لدخول">لدخول</a>
+  </nav>
+
+  <main>
+    <section id="عن المدرسة">
+      <h2>الإدارة</h2>
+      <p>يتولى إدارة المدرسة فريق متخصص في التربية والتعليم...</p>
+      <p>مدير المدرسة: الأستاذ الفاضل / محمد جابر</p>
+    </section>
+
+    <section id="الانشطة">
+      <h2>الأنشطة</h2>
+      <article>
+        <h3>قصة المدرسة</h3>
+        <p><mark>تأسست مدرسة المدينة المنورة في عام 2000 لتقديم تعليم مميز...</mark></p>
+      </article>
+      <article>
+        <h3>إنجازاتنا</h3>
+        <p>حصلت المدرسة على جوائز متعددة في مجالات العلوم والرياضة...</p>
+      </article>
+    </section>
+
+    <section class="المواد">
+      <h2>المواد الدراسية</h2>
+      <ul class="material-list">
+        <li>الرياضيات</li>
+        <li>العلوم</li>
+        <li>اللغة العربية</li>
+        <li>اللغة الإنجليزية</li>
+        <li>التربية الدينية</li>
+      </ul>
+      <h3>المواد الإضافية</h3>
+      <ul class="material-list">
+        <li>الفنون</li>
+        <li>الموسيقى</li>
+        <li>الألمانية والفرنسية</li>
+        <li>البرمجة</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>صورة للمدرسة</h2>
+      <figure><img src="./school.jpg" alt="مدرستنا"></figure>
+    </section>
+
+    <section>
+      <h2>الإعلانات الهامة</h2>
+      <figure><img src="./ad.jpg" alt="إعلان هام"></figure>
+    </section>
+
+    <section class="quote">
+      <h3>اقتباس اليوم</h3>
+      <p>"التعليم هو جواز السفر إلى المستقبل، لأن الغد ينتمي لأولئك الذين يعدون له اليوم."</p>
+    </section>
+
+    <section class="الأنشطة">
+      <h3>الأنشطة المدرسية</h3>
+      <label for="activity-select">اختر نشاطًا:</label>
+      <select id="activity-select">
+        <option value="science-club">نادي العلوم</option>
+        <option value="art-club">نادي الفنون</option>
+        <option value="sports-team">الفريق الرياضي</option>
+      </select>
+      <aside>
+        <h4>معلومة جانبية</h4>
+        <p>"العلم نور" - مثل عربي شهير</p>
+        <p><strong>إعلان:</strong> التسجيل مفتوح للعام الدراسي القادم!</p>
+      </aside>
+    </section>
+
+    <section id="لدخول">
+      <h2>تسجيل الدخول</h2>
+      <form action="">
+        <label for="name">الاسم:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">البريد الإلكتروني:</label>
+        <input type="text" id="email" name="email" required>
+
+        <label for="age">عمر الطالب:</label>
+        <input type="number" name="age" required>
+
+        <label for="grade">الصف الدراسي:</label>
+        <input type="text" id="grade" name="grade" required>
+
+        <input type="submit" value="إرسال">
+      </form>
+    </section>
+  </main>
+
+  <footer id="اتصل بنا">
+    <p>حقوق النشر &copy; 2025 مدرسة المدينة المنورة</p>
+    <p>للتواصل: info@madina.edu.eg | 01207038487 - 0155682490</p>
+  </footer>
+
+</body>
+</html>

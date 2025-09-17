@@ -1,4 +1,4 @@
-<!DOCTYPE html>>
+<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
@@ -17,6 +17,16 @@
             color: rgb(239, 239, 239);
             padding: 20px;
             text-align: center;
+        }
+        main {
+            background-color: #908f8f;
+            
+        }
+        nav {
+            background-color: #908f8f;
+        }
+        form {
+            background-color: #908f8f;
         }
 
         header h1 {
@@ -45,11 +55,14 @@
         }
 
         section {
-            background-color: rgb(172, 145, 145);
+            background-color: rgb(255, 255, 255);
             margin: 20px;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        p h1 {
+            color: #f9f9f9;
         }
 
         h2 {
@@ -63,11 +76,13 @@
             font-style: italic;
             margin: 20px;
         }
+        
 
         img {
             max-width: 100%;
             border-radius: 5px;
             margin-top: 10px;
+            background-color: #292929;
         }
 
         label, input, select {
@@ -102,9 +117,18 @@
         footer a {
             color: #f92a2a;
         }
+        .material-list{
+            display:flex;
+            list-style: none;
+            gap: 10px;
+
+        }
 
         .material-list li {
-            margin-bottom: 5px;
+            padding: 10px;
+            background-color: #1201ff;
+            color:#fff;
+            border-radius: 10px;
         }
 
         .activities select {
@@ -124,6 +148,7 @@
             <li><a href="#عن المدرسة">عن المدرسة</a></li>
             <li><a href="#الانشطة">الأنشطة</a></li>
             <li><a href="#اتصل بنا">اتصل بنا</a></li>
+            <li><a href="#لدخول">لدخول</a></li>
             
         </ul>
     </nav>
@@ -132,6 +157,7 @@
         <section id="عن المدرسة">
             <h2>الإدارة</h2>
             <p>يتولى إدارة المدرسة فريق متخصص في التربية والتعليم...</p>
+            <p>يتولى إدارة المدرسة  الاستاذ الفاضل \محمد جابر </p>
         </section>
 
         <section id="الانشطة">
@@ -163,6 +189,7 @@
                 <li>البرمجة</li>
             </ul>
         </section>
+        <mark><p><h1>صورة للمدرسة:</h1></p></mark>
         <figure><img src="./school.jpg"></figure>
         <center><h1><mark><p>الاعلانات الهامة:</p></mark></h1></center>
         <figure><img src="./ad.jpg"></figure>
@@ -186,8 +213,9 @@
         </aside>
     </main>
     <section class="contact-form">
+             <section id="لدخول">      
             <h2>لدخول</h2>
-            <form action="#" method="post">
+            <form action="">
                 <label for="name">الاسم:</label>
                 <input type="text" id="name" name="name" required>
 
@@ -199,9 +227,11 @@
                                 <label for="name">الصف الدراسي</label>
                 <input type="text"  name="name" required>
 
-                <input type="submit" value="إرسال">
+                <input type="submit" value="إرسال" sind to="adm.txt">
             </form>
-
+            </section>
+            
+            
     <footer id="اتصل بنا">
         <p>حقوق النشر &copy; 2025  مدرسةالمدينة المنورة</p>
         <p>للتواصل: info@madina-al-monauara.edu.eg | 01207038487,0155682490</p>
